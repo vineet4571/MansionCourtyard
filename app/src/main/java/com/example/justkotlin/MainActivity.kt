@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             type = "*/*"
             data = Uri.parse("mailto:")
             putExtra(Intent.EXTRA_EMAIL, "vineet4571@gmail.com")
-            putExtra(Intent.EXTRA_SUBJECT, "Just Java Order for $name")
+            putExtra(Intent.EXTRA_SUBJECT, "Mansion Courtyard Order for $name")
             putExtra(Intent.EXTRA_TEXT, message)
         }
         if (intent.resolveActivity(packageManager) != null) {
